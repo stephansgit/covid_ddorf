@@ -45,7 +45,7 @@ else:
     reffile.write(refdat)
     reffile.close() 
 
-    msg = MIMEText('blabla')
+    msg = MIMEText(pth_tday)
     msg['From'] = "stephan.sprenger@web.de"
     msg['To'] = "stephan.sprenger@uniper.energy"
     msg['Subject'] = 'Corona Düsseldorf Webseite hat sich geändert!'
